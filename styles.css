@@ -1,0 +1,164 @@
+/* Resetting default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #7815cf;
+    color: #fff;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    
+}
+
+
+.home-section {
+    background-image: url('sportswear.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.product-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.product-images img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1aca3b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a520c0;
+    color: #fff;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.product {
+    margin-bottom: 40px;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.product-details h2 {
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    margin-bottom: 15px;
+}
+
+.product-details button {
+    padding: 10px 20px;
+    background-color: #a9a222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-details button:hover {
+    background-color: #e43c12;
+}
+
+
+#contact {
+    text-align: center;
+  }
+  
+  #contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
